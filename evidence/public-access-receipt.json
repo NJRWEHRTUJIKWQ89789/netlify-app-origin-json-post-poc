@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-10-29T18:42:57Z",
+  "endpoint": "https://app.netlify.com/.netlify/functions/bitbucket-self-hosted",
+  "request": {
+    "method": "POST",
+    "cookie": false,
+    "authorization": false,
+    "origin": "https://example.org",
+    "content_type": "text/plain"
+  },
+  "response": {
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 176,
+    "sha256": "8c7b5c2dc5338aa032aabade6688c5e15bf6b99bad4a298f11da0d33ed2383cc",
+    "marker": "NFX_SERVER_CLIENT_DIFF",
+    "value": [1, true, null],
+    "access_control_allow_origin": null
+  },
+  "browser_form": {
+    "browser": "Google Chrome Dev",
+    "source": "file:///Users/croexp/netlify-app-origin-json-post-poc/poc-form.html",
+    "final_url": "https://app.netlify.com/.netlify/functions/bitbucket-self-hosted",
+    "visible_marker": "NFX_SERVER_CLIENT_DIFF",
+    "visible_value": [1, true, null],
+    "verified": true
+  },
+  "verdict": "Public POST access is proven without a Netlify session. GET and cross-origin script readability are not claimed."
+}
